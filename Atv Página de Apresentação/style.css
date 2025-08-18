@@ -1,0 +1,31 @@
+body {
+    font-family:cursive;
+    background-color: rgb(207, 171, 179);
+    color:rgb(119, 50, 71);
+    text-align: center;
+    padding: 70px;    
+}
+
+p {
+    color: rgb(247, 244, 245);
+}
+
+button {
+    background-color: rgb(165, 106, 123);
+    color: rgb(100, 39, 58);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(226, 188, 201);
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(119, 50, 71);
+}
