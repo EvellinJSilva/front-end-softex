@@ -25,6 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
             maiorEl.innerHTML="";
             menorEl.innerHTML="";
             igualEl.innerHTML="Os dois números são iguais.";
-        }
+        };
     });
 });
