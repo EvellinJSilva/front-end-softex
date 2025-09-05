@@ -1,75 +1,94 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
   background-color: #f5f5f5;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
-  color: #333;
+  color: #153fc9;
+  text-align: center;
+}
+
+#formContainer {
+  display: flex;
+  justify-content:center ;
+  text-align: center;
 }
 
 form {
-  background: #fff;
-  padding: 20px;
+  background: #d9e4f1;
+  padding: 10px;
   border-radius: 8px;
   max-width: 400px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  box-shadow: 0 0 1em rgb(92, 124, 230);
+  
 }
 
 label {
-  display: block;
-  margin-top: 10px;
+  display:block;
+  margin-top: 5px;
+  color: #1344e7;
 }
 
-input[type="text"],
-input[type="number"] {
+input[type="text"] {
   width: 100%;
-  padding: 8px;
+  padding: 5px;
   margin-top: 5px;
   box-sizing: border-box;
+  border-color:#78b3e4;
+  
+}
+
+input[type="number"] {
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-color:#78b3e4;
 }
 
 button {
   margin-top: 15px;
   padding: 10px 15px;
-  background-color: #28a745;
-  border: none;
-  color: white;
+  background-color: #153fc9;
+  border:none;
+  color: rgb(239, 244, 245);
   cursor: pointer;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #5997e7;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  background: #fff;
 }
 
 th,
 td {
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #cbcccf;
   text-align: center;
+  text-transform: capitalize;
 }
 
 th {
-  background-color: #007bff;
-  color: white;
+  background-color: #153fc9;
+  color: #eff1f5;
 }
 
 .aprovado {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: rgb(214, 243, 206);
+  color: #3ba137;
 }
 
 .recuperacao {
-  background-color: #fff3cd;
-  color: #856404;
+  background-color: rgb(237, 238, 212);
+  color: #836f18;
 }
 
 .reprovado {
@@ -77,7 +96,6 @@ th {
   color: #721c24;
 }
 
-/* Esconder a tabela inicialmente */
 #tabelaContainer {
   display: none;
 }

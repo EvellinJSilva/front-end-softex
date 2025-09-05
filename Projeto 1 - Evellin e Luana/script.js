@@ -35,7 +35,6 @@ form.addEventListener("submit", function (event) {
   const situacao = determinarSituacao(media);
   const classeSituacao = obterClasseSituacao(situacao);
 
-  // Mostrar a tabela se ainda estiver oculta
   tabelaContainer.style.display = "block";
 
   const novaLinha = document.createElement("tr");
@@ -45,7 +44,7 @@ form.addEventListener("submit", function (event) {
         <td>${nota1.toFixed(1)}, ${nota2.toFixed(1)}, ${nota3.toFixed(1)}</td>
         <td>${media}</td>
         <td>${situacao}</td>
-      `;
+        `;
 
   tabela.appendChild(novaLinha);
   form.reset();
