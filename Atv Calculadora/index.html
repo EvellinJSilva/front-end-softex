@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <label for="num1">Primeiro número:</label>
+    <input type="number" id="num1"><br><br>
+
+    <label for="num2">Segundo número:</label>
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="mostrarResultado('soma')">Somar</button>
+    <button onclick="mostrarResultado('subtrair')">Subtrair</button>
+    <button onclick="mostrarResultado('multiplicar')">Multiplicar</button>
+    <button onclick="mostrarResultado('dividir')">Dividir</button>
+
+    <p id="resultado"></p>
+</body>
+</html>
