@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#topo {
+  text-align: center;
+  color: rgb(124, 32, 228);
+  margin-top: 15px;
+  background-color: rgb(228, 218, 238);
+}
+
+#descricaoFoto {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(205, 164, 243);
+}
+
+.fotoPerfil {
+  border-radius: 50%;
+  width: 10%;
+  filter: drop-shadow(8px 8px 10px rgb(174, 109, 218));
+}
+
+.hobbies {
+  color: rgb(124, 32, 228);
+}
+
+label {
+  display: block;
+  color: rgb(220, 99, 231);
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-top: 5px;
+  border-color: rgb(219, 192, 221);
+  border-radius: 4px;
+}
+
+button {
+  border-radius: 4px;
+  padding: 5px 8px;
+  border-color: rgb(219, 192, 221);
+  color: rgb(139, 28, 212);
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(226, 217, 235);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    width: 100%; /* Ocupa toda a largura da tela */
+  }
+}
