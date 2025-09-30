@@ -1,0 +1,27 @@
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 2rem auto;
+    }
+    #tarefas {
+      list-style-type: none;
+      padding: 0;
+    }
+    #tarefas li {
+      background: #f4f4f4;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+    }
+    #tarefas li.concluida {
+      text-decoration: line-through;
+      color: gray;
+      background: #d4edda;
+    }
+    button.concluir {
+      margin-left: 1rem;
+      cursor: pointer;
+    }
